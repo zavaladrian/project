@@ -4,17 +4,14 @@
   <title>Adrian Zavala Portfolio</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="css\styles.css">
   
-  <style>
-  .fakeimg {
-    height: 200px;
-    background: #bf5858;
-  }
-  </style>
  
 </head>
 <body>
@@ -22,14 +19,14 @@
 <!-- Jumbotron -->
 <div class="p-5 text-center bg-image rounded-4" style="
     background-image: url('https://as1.ftcdn.net/v2/jpg/00/35/35/40/1000_F_35354022_kVyRIi42r1EReIdrVQ7iXANMZ3zeDNio.jpg');
-    height: 350px;
+    height: 350px; background-size:cover;
   ">
   <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
     <div class="d-flex justify-content-center align-items-center h-100">
       <div class="text-white">
         <h1 class="mb-3">Adrian Zavala</h1>
         <h4 class="mb-3">Web Developer</h4>
-        <a class="btn btn-outline-light btn-lg" href="#!" role="button">Resume</a>
+        <a class="btn btn-outline-light btn-lg" href="certs\fakeresume.pdf" role="button">Resume</a>
       </div>
     </div>
   </div>
@@ -37,9 +34,9 @@
 <!-- Jumbotron -->
   
 <!--Navbar-->
-<nav class="navbar navbar-expand-lg bg-dark">
+<nav class="navbar navbar-expand bg-dark">
 
-  <div class="container">
+ 
  
    <!-- Collapse button -->
    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav"
@@ -67,7 +64,7 @@
  
      <!-- Navbar brand -->
      <a class="navbar-brand px-lg-4 mr-0" href="#">
-      <img src="img\AZ2.png" height="90" alt="">
+      <img src="img\AZ2.png" height="130" alt="">
      </a>
  
      <!-- Links -->
@@ -100,54 +97,159 @@
      
 
         <div class="caption"><p class="text-danger text-center text" id="dawg">
-     Big Dawg</p>
+     Adrian Zavala</p>
       </div>
       <br> <br>
       </div>
-      <p>My name is Adrian Zavala and I am recent Nucamp Bootcamp graduate that completed the Full Stack program. After high school, I went to Eastern Illinois University and graduationed with a B.A. in Psychology in 2013. Ever since then, I decided to help out with my family and mananged my family restuarant. The last 3 years though, a couple months before the pandemic, we ended buying a new restuarant and I helped as an owner and mananger though the tough times we, as well as many through the food industry, went though. We made it and I believe I set it up where I am able to make a better carreer choice as being a restuarant owner was never something I entirely wanted to do. Ever since I was a young lad, I was always interested using my creativity. I enjoyed playing music, creating music, drawing, and doing visual presentations to whatever class assignments I had ever since I was in middle school. Now I want to put my creativity to good use and help companies ...</p>
+      <p> I am recent Nucamp Bootcamp graduate that completed the Full Stack program. After high school, I went to Eastern Illinois University and graduationed with a B.A. in Psychology in 2013. Ever since then, I decided to help out with my family and mananged my family restuarant. The last 3 years though, a couple months before the pandemic, we ended buying a new restuarant and I helped as an owner and mananger though the tough times we, as well as many through the food industry, went though. We made it and I believe I set it up where I am able to make a better carreer choice as being a restuarant owner was never something I entirely wanted to do. Ever since I was a young lad, I was always interested using my creativity. I enjoyed playing music, creating music, drawing, and doing visual presentations to whatever class assignments I had ever since I was in middle school. Now I want to put my creativity to good use and help companies.</p>
       
       
       
-      <h3>Some Links</h3>
-      <p>Lorem ipsum dolor sit ame.</p>
-
-
-      <ul class="nav nav-pills flex-column">
-        <li class="nav-item">
-          <a class="nav-link active" href="#">Active</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#">Disabled</a>
-        </li>
-      </ul>
-      <hr class="d-sm-none">
+      
     </div>
+
+
+<!--Right Side-->
+
     <div class="col-sm-8">
       <h2>TITLE HEADING</h2>
       <h5>Title description, Dec 7, 2017</h5>
-      <div class="fakeimg">Fake Image</div>
+      
       <p>Some text..</p>
       <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
       <br>
-      <h2>TITLE HEADING</h2>
-      <h5>Title description, Sep 2, 2017</h5>
-      <div class="fakeimg">Fake Image</div>
-      <p>Some text..</p>
-      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-    </div>
+
+      <!--Modals of Certs-->
+      
+      <h2>Accomplishments</h2>
+      <p></p>
+
+      <!--Modals buttons 1-->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+        Nucamp Cert of Fundamentals of Web Develops
+        </button>
+
+        <!-- The Modal -->
+      <div class="modal" id="myModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+
+      <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">Nucamp Certificate of Fundamentals of Web Development</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+      <!-- Modal body -->
+      <embed src="certs/webDev.pdf"
+      frameborder="0" width="100%" height="700px">
+
+      <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+<br>
+<br>
+      <!--Modals buttons 2-->
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal2">
+        Google Cert IT Fundamentals
+        </button>
+
+        <!-- The Modal -->
+      <div class="modal" id="myModal2">
+        <div class="modal-dialog">
+          <div class="modal-content">
+
+      <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">Intro to CyberSecurity</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+      <!-- Modal body -->
+      <embed src="certs\itFund.pdf"
+      frameborder="0" width="100%" height="500px">
+
+      <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+<br>
+<br>
+         <!--Modals buttons 3-->
+         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal3">
+           Cisco Intro to CyberSecurity 
+          </button>
+  
+          <!-- The Modal -->
+        <div class="modal" id="myModal3">
+          <div class="modal-dialog">
+            <div class="modal-content">
+  
+        <!-- Modal Header -->
+              <div class="modal-header">
+                <h4 class="modal-title">Cisco Intro to CyberSecurity</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+  
+        <!-- Modal body -->
+        <embed src="certs/cyber.pdf"
+        frameborder="0" width="100%" height="500px">
+  
+        <!-- Modal footer -->
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+              </div>
+  
+            </div>
+          </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        
+        <h1><span class="badge badge-pill badge-info">Contact Me</span></h1>
+       
+        <form>
+          <div class="form-group">
+            <label for="inputEmail">Email</label>
+            <input type="email" class="form-control" id="inputEmail" placeholder="Email Address">
+          </div>
+          <div class="form-group">
+            <label for="inputPhone">Phone Number</label>
+            <input type="tel" class="form-control" id="inputPhone" placeholder="(888)123-4567">
+          </div>
+          <button type="submit" class="btn btn-primary">Send</button>
+        </form>
+      
+
+      </div>
   </div>
 </div>
 
-<div class="jumbotron text-center" style="margin-bottom:0">
-  <p>Footer</p>
-</div>
+<!--Footer-->
+<div class="jumbotron text-center" style="margin-bottom:0; background-color: rgb(0, 8, 8); " >
 
+    <div class="btn btn-outline-primary"><i class="fa fa-facebook-square" aria-hidden="true"></i> <a href="www.facebook.com/zavaladrian">Facebook</a></div>
+
+
+    <div class="btn btn-outline-danger"><i class="fa fa-instagram" aria-hidden="true"></i> <a href="www.instagram.com/zavaladrian">Instagram</a></div>
+  
+    <div class="btn btn-outline-info"><i class="fa fa-linkedin-square" aria-hidden="true"></i> <a href="www.linkedin.com/zavaladrian">Linkedin</a></div>
+
+    <div class="btn btn-outline-success"><i class="fa fa-github" aria-hidden="true"></i> <a href="https://github.com/zavaladrian">GitHub</a></div>
+
+  </div>
+</div>
+</div>
 </body>
 </html>
 

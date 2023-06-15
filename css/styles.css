@@ -1,12 +1,11 @@
-/* Reset default styles */
+/* Fonts */
 @import url(https://fonts.googleapis.com/css?family=Esteban:regular);
 @import url(https://fonts.googleapis.com/css?family=Permanent+Marker:regular);
 	
 /*new code*/
 
 @import url(https://fonts.googleapis.com/css?family=Raleway);
-
-
+@import url(https://fonts.googleapis.com/css?family=Pacifico:regular);
 
 
 
@@ -20,9 +19,8 @@ body {
 	
   }
 
-  img {
-	border: 1px solid #852727;
-	border-radius: 5px;
+  #thumbnail {
+	
 	padding: 5px;
 	width: 150px;
   }
@@ -33,11 +31,7 @@ font-family: 'Permanent Marker';
 font-style: initial;
   }
 
-.border {
-	border-width:3px !important;
-	border-color: rgb(229, 144, 144) !important;
-
-}
+  
 
 .navbar {
 position: top;
@@ -63,5 +57,22 @@ position: top;
 	font-weight: bold;
 
 }
-/*what*/
 
+
+
+.caption {
+	font-size: larger;
+	font-style: italic;
+	font-family: Pacifico;
+	font-stretch: expanded;
+}
+
+#imageTop {
+	height: auto;
+	width: auto;
+	
+}
+
+#aboutMe {
+	font-family: 'Times New Roman', Times, serif;
+}

@@ -19,8 +19,7 @@ body {
 	
   }
 
-  #thumbnail {
-	
+ #thumbnail {
 	padding: 5px;
 	width: 150px;
   }
@@ -76,3 +75,31 @@ position: top;
 #aboutMe {
 	font-family: 'Times New Roman', Times, serif;
 }
+
+
+.lightbox-gallery {
+	background-image: linear-gradient rgba(204, 116, 116, 0.47), rgb(47, 14, 214);background-repeat: no-repeat;color: #000;overflow-x: hidden}
+.lightbox-gallery p{color:#fff}
+.lightbox-gallery h2{font-weight:bold;margin-bottom:40px;padding-top:40px;color:#fff}
+@media (max-width:767px){.lightbox-gallery h2{margin-bottom:25px;padding-top:25px;font-size:24px}}
+.lightbox-gallery .intro{font-size:16px;max-width:500px;margin:0 auto 40px}
+.lightbox-gallery .intro p{margin-bottom:0}
+.lightbox-gallery .photos{padding-bottom:20px}
+.lightbox-gallery .item{padding-bottom:30px};
+
+footer {
+    background-image: linear-gradient(#0fd35a, rgb(0, 0, 0)) !important;
+    padding: 20px 0; }
+
+
+.carousel-caption {
+        background-color: rgba(0, 0, 0, 0.5); }
+      
+.carousel {
+        border: solid #5637dd; }
+      
+#carouselButton {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: 100; }
